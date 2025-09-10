@@ -3,3 +3,12 @@ background-color: rgba(112, 226, 243, 0.707);
 color: rgb(54, 42, 34);  
 margin: 8 px;;
 }
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333333;
+}
+
+
