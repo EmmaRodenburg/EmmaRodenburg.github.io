@@ -7,13 +7,15 @@ margin: 8 px;;
   padding: 0;
 
   
-  font-family: "Audiowide", sans-serif;
-
+ 
 }
 
 
 h2, p {
   margin: 10px;
+  
+  font-family: "Audiowide", sans-serif;
+
 }
 
 ul {
