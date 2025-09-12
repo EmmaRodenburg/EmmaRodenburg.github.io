@@ -9,12 +9,21 @@ margin: 8 px;;
   
  
 }
+body {
+  font-family: Muli, sans-serif;
+  font-size: 16px;
+}
+
+h1 {
+  font-family: "Space Mono", monospace;
+  font-size: 46px;
+}
 
 
 h2, p {
   margin: 10px;
   
-  font-family: "Audiowide", sans-serif;
+
 
 }
 
