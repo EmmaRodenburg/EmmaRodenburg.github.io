@@ -43,30 +43,3 @@ ul li a:hover {
   background-color: #d654c7;
 }
 
-div {
-  border: 1px solid gray;
-  padding: 8px;
-}
-
-h1 {
-  text-align: left;
-  text-transform: uppercase;
-  color: #184bca;
-}
-
-p {
-  text-indent: 50px;
-  text-align: justify;
-  letter-spacing: 3px;
-}
-
-a {
-  text-decoration: none;
-  color: #008CBA;
-}
-
-h2 {
-  text-align: left;
-  text-transform: uppercase;
-  color: #353c4d;
-}
