@@ -51,7 +51,7 @@ div {
 h1 {
   text-align: center;
   text-transform: uppercase;
-  color: #4CAF50;
+  color: #6678a4;
 }
 
 p {
@@ -63,4 +63,10 @@ p {
 a {
   text-decoration: none;
   color: #008CBA;
+}
+
+h2 {
+  text-align: center;
+  text-transform: uppercase;
+  color: #6678a4;
 }
