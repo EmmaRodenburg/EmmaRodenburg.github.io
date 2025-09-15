@@ -45,11 +45,11 @@ ul li a:hover {
 
 div {
   border: 1px solid gray;
-  padding: 20px;
+  padding: 8px;
 }
 
 h1 {
-  text-align: center;
+  text-align: left;
   text-transform: uppercase;
   color: #184bca;
 }
@@ -66,7 +66,7 @@ a {
 }
 
 h2 {
-  text-align: center;
+  text-align: left;
   text-transform: uppercase;
   color: #353c4d;
 }
