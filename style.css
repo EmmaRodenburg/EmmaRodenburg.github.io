@@ -44,6 +44,17 @@ ul li a:hover {
 }
 
 vanaf hier oefen met dropdown
+
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #38444d;
+}
+
 li {
   float: left;
 }
