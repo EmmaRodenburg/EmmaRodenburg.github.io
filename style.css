@@ -44,7 +44,7 @@ ul li a:hover {
 }
 
 vanaf hier oefen met dropdown
-.four-level-menu
+.third-level-menu
 {
     position: absolute;
     top: 0;
@@ -56,12 +56,12 @@ vanaf hier oefen met dropdown
     display: none;
 }
 
-.four-level-menu > li
+.third-level-menu > li
 {
     height: 30px;
     background: #999999;
 }
-.four-level-menu > li:hover { background: #cda0a0; }
+.third-level-menu > li:hover { background: #CCCCCC; }
 
 .second-level-menu
 {
@@ -106,3 +106,18 @@ vanaf hier oefen met dropdown
     display: inline;
 }
 
+
+/* Menu Link Styles */
+
+.top-level-menu a /* Apply to all links inside the multi-level menu */
+{
+    font: bold 14px Arial, Helvetica, sans-serif;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 0 0 0 10px;
+
+    /* Make the link cover the entire list item-container */
+    display: block;
+    line-height: 30px;
+}
+.top-level-menu a:hover { color: #000000; }
