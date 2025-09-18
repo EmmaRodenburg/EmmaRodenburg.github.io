@@ -44,7 +44,7 @@ ul li a:hover {
 }
 
 vanaf hier oefen met dropdown
-.third-level-menu
+.fourth-level-menu
 {
     position: absolute;
     top: 0;
@@ -56,12 +56,12 @@ vanaf hier oefen met dropdown
     display: none;
 }
 
-.third-level-menu > li
+.fourth-level-menu > li
 {
     height: 30px;
     background: #999999;
 }
-.third-level-menu > li:hover { background: #CCCCCC; }
+.fourth-level-menu > li:hover { background: #CCCCCC; }
 
 .second-level-menu
 {
