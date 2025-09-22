@@ -1,7 +1,7 @@
 body {
 background-color: rgba(112, 226, 243, 0.707);  
 color: rgb(54, 42, 34);  
-margin: 8 px;;
+margin: 8px;
 
   margin: 0;
   padding: 0;
@@ -43,21 +43,8 @@ ul li a:hover {
   background-color: #d654c7;
 }
 
-vanaf hier oefen met dropdown
+vanaf
 
-
-
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #38444d;
-}
-
-li {
-  float: left;
-}
 
 li a, .dropbtn {
   display: inline-block;
