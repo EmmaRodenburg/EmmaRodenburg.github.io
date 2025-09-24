@@ -84,33 +84,3 @@ li.dropdown {
 }
 
 
-
-
-/* Zorg dat de pagina altijd minstens de hoogte van het scherm heeft */
-html, body {
-  height: 10%; /* body vult het hele venster */
-  margin: 0;    /* standaard marges weghalen */
-}
-
-/* Maak van de body een flex-container in kolomrichting */
-body {
-  display: flex;            /* flexbox inschakelen */
-  flex-direction: column;   /* blokken onder elkaar */
-  min-height: 100vh;        /* altijd minstens schermhoogte */
-  font-family: Arial, sans-serif; /* standaard lettertype */
-}
-
-/* Het hoofdgedeelte van de pagina */
-main {
-  flex: 1;        /* neemt alle overgebleven ruimte in */
-  padding: 1rem;  /* wat ruimte rond de tekst */
-}
-
-/* De footer zelf */
-footer {
-  padding: 1rem;            /* ruimte binnenin de footer */
-  text-align: center;       /* tekst in het midden */
-  background: #222;         /* donkere achtergrond */
-  color: #fff;              /* witte tekst */
-  font-size: 0.9rem;        /* iets kleinere tekst */
-}
