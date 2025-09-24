@@ -96,3 +96,56 @@ li.dropdown
 }
 
 
+
+/* vanaf hier is voor mijn scrol foto's mijn hoofd pagina*/
+
+/* dit zorgt voor de hoogte en breedte */
+* {box-sizing: border-box} 
+/* dit zorgt voor de hoogte en breedte */
+
+/* dit is een centraal blok voor de slides en plaating voor knopjes */
+.slideshow-container {
+  max-width: 1000px; 
+  position: relative; 
+  margin: auto; 
+}
+/* van af hier nog niet zelf genoteerd wat wat is*/
+
+.prev, .next {
+  cursor: pointer; /* Handje bij hover */
+  position: absolute; /* Absoluut binnen container */
+  top: 50%; 
+  padding: 16px; 
+  color: white; 
+  font-weight: bold;
+  border-radius: ...; 
+}
+.next { right: 0; }
+/* Positionering van de knoppen en stijl */
+
+.mySlides {display: none;} 
+/* Standaard slides verbergen */
+
+.text {position: absolute; bottom: 8px; width: 100%; text-align:center;} 
+/* Onderschrift onderaan slide */
+
+.numbertext {position:absolute; top:0;} 
+/* Nummering bovenaan slide */
+
+.dot { cursor:pointer; height:15px; width:15px; border-radius:50%; }
+/* Cirkelvormige knoppen onderaan slideshow */
+
+.active, .dot:hover {background-color: #717171;} 
+/* Actieve dot of hover donkerder */
+
+
+.fade { animation-name: fade; animation-duration: 1.5s; }
+
+@keyframes fade { from {opacity:.4} to {opacity:1} }
+/* Zorgt dat slides zacht vervagen in plaats van direct wisselen */
+
+
+
+
+
+
