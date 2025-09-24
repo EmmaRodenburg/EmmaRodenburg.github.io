@@ -6,6 +6,11 @@ margin: 8px;
   margin: 0;
   padding: 0;
 
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+  color: aliceblue;
+
  
 }
 
