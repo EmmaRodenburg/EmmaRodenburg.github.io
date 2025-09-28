@@ -137,13 +137,3 @@ li.dropdown
 
 
 
-.main-content img {
-  width: 200px; /* zorgt voor de breedte van elke afbeelding. */
-  height: 150px; /* zorgt voor de hoogte van elke afbeelding. */
-  object-fit: cover; /* Zorgt voor dat de afbeelding het vak mooi vult zonder uitrekken */
-  border-radius: 8px; /* zorgt dat de hoeken afgerond zijn */
-  margin: 10px; 
-  box-shadow: 0 2px 6px rgba(0,0,0,0.2); 
-}
-
-
