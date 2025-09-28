@@ -109,6 +109,36 @@ li.dropdown
 }
 
 .main-content {
-  flex: 1; /* zorgt voor breedte van kolom */
+  flex: 1; 
   padding: 20px; /* zorgt voor lengte van kolom */
 }
+
+
+/* Dit volgende is voor het plaatsen van mijn plaatjes*/
+.container {
+  display: flex; /* Zet tekst en afbeeldingen naast elkaar */
+  gap: 20px; /* Ruimte tussen tekst en afbeeldingen */
+  padding: 20px;
+}
+
+.text-section {
+  flex: 1; /* Tekst neemt 1 deel van de ruimte */
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.image-gallery {
+  flex: 1; 
+  display: grid; 
+  grid-template-columns: repeat(2, 1fr); /* zorgt voor aantal kolommen */
+  gap: 10px; 
+}
+
+.image-gallery img {
+  width: 100%; /* Afbeelding vult het vak */
+  height: auto;
+  border-radius: 8px; /* Zorgt voor ronde hoekjes */
+ 
+}
+
