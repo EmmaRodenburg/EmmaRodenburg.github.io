@@ -136,9 +136,10 @@ li.dropdown
 }
 
 .image-gallery img {
-  width: 50%; /* Afbeelding vult het vak */
+  
   height: auto;
   border-radius: 8px; /* Zorgt voor ronde hoekjes */
- 
+ width: 100px;
+  
 }
 
