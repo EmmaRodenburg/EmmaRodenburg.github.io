@@ -96,6 +96,19 @@ li.dropdown
 }
 
 
+/*container zorgt voor het groeperen van de informatie in dit geval voor */
+.container {
+  display: flex; /* maakt van de container een horizontale rij  */
+}
 
-/* Dit is voor mijn foto collage*/
+.sidebar {
+  width: 250px; /* zorgt voor breedte van de linkerkolom */
+  background-color: rgba(239, 164, 164, 0.5); /* beetje doorschijnende achtergronf */
+  padding: 20px; /* Ruimte binnen de kolom */
+  box-shadow: 2px 0 5px rgba(0,0,0,0.1); /* zorgt voor schaduwtje */
+}
 
+.main-content {
+  flex: 1; /* zorgt voor breedte van kolom */
+  padding: 20px; /* zorgt voor lengte van kolom */
+}
