@@ -136,7 +136,7 @@ li.dropdown
 }
 
 .image-gallery img {
-  width: 100%; /* Afbeelding vult het vak */
+  width: 50%; /* Afbeelding vult het vak */
   height: auto;
   border-radius: 8px; /* Zorgt voor ronde hoekjes */
  
