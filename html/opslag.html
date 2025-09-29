@@ -14,15 +14,12 @@ body {
  
 }
 
-.main-content img {
-  width: 500px; /* zorgt voor de breedte van elke afbeelding. */
-  height: auto; /* zorgt voor de hoogte van elke afbeelding. */
-  object-fit: cover; /* Zorgt voor dat de afbeelding het vak mooi vult zonder uitrekken */
-  border-radius: 8px; /* zorgt dat de hoekjes afgerond zijn */
-  margin: 10px; 
-  box-shadow: 0 2px 6px rgba(0,0,0,0.2); /*zorgt voor schaduw bij de plaatjes*/
-}
-
+.afbeelding-3 {
+  width: 350px;   /*  grootte */
+  height: auto;   /* verhoudingen  */
+  display: block;
+  margin: 20px auto; 
+ } 
 
 
 </style>
@@ -65,12 +62,12 @@ body {
     </div>
 
     <div class="rechterkolom">
-      <div class="image-gallery">
-      <img src="../Afbeeldingen/comprimeren.png" alt="compressie"> <!--Alt is wat je ziet als het plaatje het niet doet.-->
-      <img src="../Afbeeldingen/geluid-comprimeren.jpg" alt="geluid-comprimeren">
       
+      <img src="../Afbeeldingen/comprimeren.png" class="afbeelding-3" alt="compressie"> <!--Alt is wat je ziet als het plaatje het niet doet.-->
+      <img src="../Afbeeldingen/geluid-comprimeren.jpg" class="afbeelding-3 alt="geluid-comprimeren">
       
     </div>
+
   </div>
 
 
