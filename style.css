@@ -153,14 +153,3 @@ li.dropdown
   box-shadow: 2px 0 5px rgba(0,0,0,0.1);
 }
 
-
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: visible;   /* verander van hidden naar visible */
-  background-color: #414571;
-  width: 100%;         /* zorg dat het altijd volledig breed is */
-  z-index: 1000;       /* zodat dropdowns boven andere elementen komen */
-  position: relative;  /* nodig voor dropdown positioning */
-}
