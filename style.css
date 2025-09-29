@@ -154,8 +154,7 @@ li.dropdown
 }
 
 
-/* Dit is de opmaak van mijn link*/
-a:link, a:visited {
+a.knop:link, a.knop:visited {
   background-color: #d654c7;
   color: white;
   padding: 14px 25px;
@@ -164,6 +163,6 @@ a:link, a:visited {
   display: inline-block;
 }
 
-a:hover, a:active {
-  background-color: red;
+a.knop:hover, a.knop:active {
+  background-color: #414571;
 }
