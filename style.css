@@ -149,9 +149,9 @@ html, body {   /* Zorgt dat html en body niet in de war raken met footer */
   padding: 15px;          
 }
 
-
+/* dit is de opmaak voor de rechter kolom */
 .rechter-kolom {
-  width: 400px;
+  width: 200px;
   background-color: rgba(239, 164, 164, 0.5);
   padding: 20px;
   box-shadow: 2px 0 5px rgba(0,0,0,0.1);
