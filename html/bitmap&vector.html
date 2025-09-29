@@ -11,7 +11,12 @@
 body {
  background-image: url("/Achtergronden/achtergrondcompressie.webp");
 }
-
+.afbeelding-2 {
+  width: 400px;   /*  grootte */
+  height: auto;   /* verhoudingen  */
+  display: block;
+  margin: 20px auto; 
+}
 </style>
 
 <ul>
@@ -31,7 +36,34 @@ body {
   </li>
 </ul>
 
-<h2>Bitmap </h2>
+<div class="kolom"> <!-- Twee gelijke kolommen -->
+  <div class="linkerkolom">
+    <h2>Bitmapafbeelding</h2>
+    <p>Is een afbeelding opgebouwd uit allemaal pixels. 
+      Die pixels hebben allemaal hun eigen kleur. 
+      Hoe meer pixels er in een afbeelding zitten, hoe scherper de afbeelding is. 
+      Maar bitmapafbeeldingen hebben ook nadelen. 
+      Een bitmapafbeelding kost heel veel opslagruimte, omdat al die kleine pixeltjes opgeslagen moeten worden. 
+      Daarnaast als je inzoomt op een afbeelding kan je vaak alle verschillende kleuren pixels zien. 
+      Een bitmapafbeelding is wel ideaal voor foto’s maar minder handig voor logo’s.
+
+    </p>
+  </div>
+
+  <div class="Rechterkolom">
+    <h2>Vectorafbeelding</h2>
+    <p>
+     Is een afbeelding die niet bestaat uit pixels, maar uit allerlei wiskundige vormen. 
+     Een van de voordelen van een vectorafbeelding is dat je afbeeldingen heel groot kunt maken, maar de scherpheid en kwaliteit van de afbeelding blijft hetzelfde. 
+     Een ander voordeel is dat een vectorafbeelding helemaal niet zo’n groot bestand is, omdat dus de wiskundige vormen alleen worden opgeslagen en niet allemaal aparte pixels. 
+     Er zijn ook nadelen van een vectorafbeelding. Een vectorafbeelding is handig voor logo’s, illustraties en iconen, maar waardeloos voor foto’s. 
+    </p>
+  </div>
+</div>
+
+<div class="Horizontale-kolom"> <!-- Horizontale kolom onder de twee kolommen -->
+  <img src="../Afbeeldingen/bitmap-vs-vector.jpg" class="afbeelding-2" alt="bitmap-vs-vector">
+</div>
 
 
 <footer class="site-footer">
