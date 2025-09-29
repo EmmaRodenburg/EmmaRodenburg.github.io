@@ -134,5 +134,19 @@ li.dropdown
   
 }
 
+/* Mijn footer */
+html, body {   /* Zorgt dat html en body niet in de war raken met footer */
+  height: 100%;             
+  display: flex;         
+  flex-direction: column;   
+}
+
+.site-footer {
+  margin-top: auto;         /* zorgt dat footer onderaan de pagina staat. */
+  background-color: #414571;
+  color: white;             
+  text-align: center;      
+  padding: 15px;          
+}
 
 
