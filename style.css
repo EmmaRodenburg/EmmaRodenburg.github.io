@@ -172,3 +172,9 @@ a.knop:link, a.knop:visited {
 a.knop:hover, a.knop:active {
   background-color: #414571;
 }
+
+/* video styling*/
+.video {
+  text-align: center;
+  margin: 20px 0;
+}
