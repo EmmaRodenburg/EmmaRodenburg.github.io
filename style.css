@@ -153,3 +153,17 @@ li.dropdown
   box-shadow: 2px 0 5px rgba(0,0,0,0.1);
 }
 
+
+/* Dit is de opmaak van mijn link*/
+a:link, a:visited {
+  background-color: #d654c7;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: red;
+}
