@@ -129,9 +129,9 @@ li.dropdown
 .image-gallery {
   flex: 1; 
   display: grid; 
-  grid-template-columns: repeat(2, 1fr); /* zorgt voor aantal kolommen */
+  grid-template-columns: repeat(3, 1fr); /* zorgt voor aantal kolommen */
   gap: 10px; 
-  padding: 20px;
+  
 }
 
 
