@@ -1,17 +1,15 @@
-body {
+html,body {
 background-color: rgba(112, 226, 243, 0.707);  
 color: rgb(54, 42, 34);  
 margin: 0px;
-
-
-  padding: 0;
-
-  background-repeat: no-repeat;
-  background-attachment: fixed;  
-  background-size: cover;
-  color: aliceblue;
-
- 
+padding: 0;
+background-repeat: no-repeat;
+background-attachment: fixed;  
+background-size: cover;
+color: aliceblue;
+height: 100%;             
+display: flex;         
+flex-direction: column;   
 }
 
 /* */
@@ -134,12 +132,7 @@ li.dropdown
   
 }
 
-/* Mijn footer */
-html, body {   /* Zorgt dat html en body niet in de war raken met footer */
-  height: 100%;             
-  display: flex;         
-  flex-direction: column;   
-}
+
 
 .site-footer {
   margin-top: auto;         /* zorgt dat footer onderaan de pagina staat. */
@@ -155,4 +148,16 @@ html, body {   /* Zorgt dat html en body niet in de war raken met footer */
   background-color: rgba(239, 164, 164, 0.5);
   padding: 20px;
   box-shadow: 2px 0 5px rgba(0,0,0,0.1);
+}
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: visible;   /* verander van hidden naar visible */
+  background-color: #414571;
+  width: 100%;         /* zorg dat het altijd volledig breed is */
+  z-index: 1000;       /* zodat dropdowns boven andere elementen komen */
+  position: relative;  /* nodig voor dropdown positioning */
 }
