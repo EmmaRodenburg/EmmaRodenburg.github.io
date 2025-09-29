@@ -178,3 +178,29 @@ a.knop:hover, a.knop:active {
   text-align: center;
   margin: 20px 0;
 }
+
+/*opmaak tekst kolom
+/* Twee gelijke kolommen */
+.kolom {
+  display: flex;
+  gap: 20px; /* Ruimte tussen de kolommen */
+  padding: 20px;
+}
+
+/* Kolommen even breed */
+.linkerkolom, .rechterkolom {
+  flex: 1;
+  background-color: rgba(239, 164, 164, 0.5);
+  padding: 20px;
+  box-shadow: 2px 0 5px rgba(0,0,0,0.1);
+}
+
+/* Horizontale kolom onder de twee kolommen */
+.horizontale-kolom {
+  width: 100%;
+  background-color: rgba(96, 147, 198, 0.5);
+  padding: 20px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  margin-top: 20px;
+  text-align: center;
+}
