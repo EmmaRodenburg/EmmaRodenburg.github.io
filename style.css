@@ -22,8 +22,11 @@ ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  overflow: hidden;
+  overflow: visible;   
   background-color: #414571;
+  width: 100%;         
+  z-index: 1000;       
+  position: relative;  
 }
 
 ul li {
