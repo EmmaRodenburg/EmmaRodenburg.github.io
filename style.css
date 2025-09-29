@@ -11,13 +11,11 @@ display: flex;
 flex-direction: column;   
 }
 
-/* */
+/* dit is de opmaak van mijn titels*/
 h2,h3,p {
   margin: 10px;
   text-align: center;
 }
-
-
 
 /*test */
 
