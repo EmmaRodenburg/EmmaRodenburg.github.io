@@ -195,7 +195,7 @@ a.knop:hover, a.knop:active {
 
 /* Horizontale kolom onder de twee kolommen */
 .Horizontale-kolom {
-  width: 100%;
+  width: 90%;
   background-color:rgba(239, 164, 164, 0.384);
   padding: 20px;
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
