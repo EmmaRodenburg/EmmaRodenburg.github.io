@@ -17,58 +17,46 @@ h2,h3,p {
   text-align: center;
 }
 
-ul {
+
+
+/*test */
+
+
+.menu ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: visible;   
-  background-color: #414571;
+  background-color: #414571; /* vaste kleur menu */
   width: 100%;         
   z-index: 1000;       
   position: relative;  
 }
 
-ul li {
+.menu ul li {
   float: left;
 }
 
-ul li a {
+/* Menu-links specifiek targetten, zodat globale a:link styling het menu niet beïnvloedt */
+.menu ul li a {
   display: block;
-  color: white;
+  color: white; /* menu-tekst wit */
   text-align: center;
   padding: 20px 19px;
   text-decoration: none;
 }
 
-ul li a:hover 
-{
-  background-color: #d654c7;
+/* Hover-effect menu */
+.menu ul li a:hover, .menu .dropdown:hover .dropbtn {
+  background-color: #d654c7; /* hover menu roze */
 }
 
-/*dropdown*/
-
-
-li a, .dropbtn 
-{
-  display: inline-block;
-  color: white;
-  text-align: center;
-  padding: 20px 19px;
-  text-decoration: none;
-}
-
-li a:hover, .dropdown:hover .dropbtn 
-{
-  background-color: #d654c7;
-}
-
-li.dropdown 
-{
+/* ================= Dropdown ================= */
+li.dropdown {
   display: inline-block;
 }
 
-.dropdown-content 
-{
+.dropdown-content {
   display: none;
   position: absolute;
   background-color: #f9f9f9;
@@ -76,10 +64,8 @@ li.dropdown
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
 }
-.menu ul { background-color: #414571; }
 
-.dropdown-content a 
-{
+.dropdown-content a {
   color: black;
   padding: 12px 16px;
   text-decoration: none;
@@ -87,12 +73,16 @@ li.dropdown
   text-align: left;
 }
 
-.dropdown-content a:hover {background-color: #f1f1f1;}
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
 
-.dropdown:hover .dropdown-content 
-{
+.dropdown:hover .dropdown-content {
   display: block;
 }
+
+
+
 
 
 /*container zorgt voor het groeperen van de informatie in dit geval voor */
