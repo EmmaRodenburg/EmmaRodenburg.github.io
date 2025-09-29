@@ -15,11 +15,9 @@ margin: 8px;
 }
 
 /* */
-h2,h3,h5,h6,p {
+h2,h3,p {
   margin: 10px;
   text-align: center;
-
-
 }
 
 ul {
