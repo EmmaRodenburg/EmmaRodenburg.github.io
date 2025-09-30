@@ -1,55 +1,53 @@
 html,body {
-margin: 0px;
-padding: 0;
-background-repeat: no-repeat;
-background-attachment: fixed;  
-background-size: cover;
+margin: 0;/*haalt lege ruimte weg, maar kan ook ruimte creëren */
+padding: 0; /*Kan je gebruiken om ruimte om een voorwerp te creëren*/
+background-repeat: no-repeat; /* zorgt er voor dat de achtergrond niet herhaalt word*/
+background-attachment: fixed;  /* zorgt ervoor dat de achtergrond vast blijft staan ook tijdends het scrollen*/
+background-size: cover; /*Achtergrond bedekt het hele scherm*/
 color: aliceblue; /* tekstkleur voor body en html*/
 height: 100%;             
-display: flex;         
-flex-direction: column;   
+display: flex; /* zorgt ervoor dat elementen onder elkaar komen inplaatsvan naast elkaar*/
+flex-direction: column;  
 }
 
 /* dit is de opmaak van mijn titels*/
 h2,h3,p {
   margin: 10px;
-  text-align: center;
+  text-align: center; /*zorgt ervoor dat de tekst in het midden komt te staan.*/
 }
 
-/*test */
+/*Menu */
 
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  overflow: visible;   
-  background-color: #414571;
-  width: 100%;         
-  z-index: 1000;       
-  position: relative;  
+  overflow: visible;   /* zorgt ervoor dat mijn dropdowns kunnen uitvouwen*/
+  background-color: #414571; /* achtergrond kleur van menu*/
+  width: 100%;         /*breedte menu*/
+  z-index: 1000;       /*zorgt ervoor dat menu boven andere elementen blijft staan*/
+  position: relative;  /* bepaalt plek van dropdown*/
 }
 
 ul li {
-  float: left;
+  float: left; /*zorgt dat menu items horizontaal naast elkaar komen*/
 }
 
 ul li a {
-  display: block;
+  display: block; /*maakt een blok van de knop*/
   color: white;
   text-align: center;
   padding: 20px 19px;
   text-decoration: none;
 }
 
-ul li a:hover 
+ul li a:hover.dropdown:hover.dropdown-content 
 {
-  background-color: #d654c7;
+  background-color: #d654c7; /* dit is de kleur die je ziet als je over de knop heen gaat met je muis*/
 }
 
-/*dropdown*/
 
-
-li a, .dropbtn 
+li a, .dropdown-content 
 {
   display: inline-block;
   color: white;
@@ -58,10 +56,7 @@ li a, .dropbtn
   text-decoration: none;
 }
 
-li a:hover, .dropdown:hover .dropbtn 
-{
-  background-color: #d654c7;
-}
+
 
 li.dropdown 
 {
@@ -98,7 +93,7 @@ li.dropdown
 
 
 
-/*container is de class voor de kolommen voor de tekst van mijn pagina */
+/*container is de class die ik heb gemaakt voor de kolommen voor de tekst van mijn pagina */
 .container {
   display: flex; /* maakt van de container een horizontale rij  */
 }
