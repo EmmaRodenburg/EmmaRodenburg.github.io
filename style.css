@@ -17,7 +17,6 @@ h2,h3,p {
 }
 
 /*Menu */
-
 ul {
   list-style-type: none;
   margin: 0;
@@ -41,39 +40,38 @@ ul li a {
   text-decoration: none;
 }
 
-ul li a:hover.dropdown:hover.dropdown-content 
+ul li a:hover, .dropdown:hover .dropdownmenu
 {
   background-color: #d654c7; /* dit is de kleur die je ziet als je over de knop heen gaat met je muis*/
 }
 
-
-li a, .dropdown-content 
+/* hier onder is de opmaak van de drop down knoppen*/
+/* Dropdown knop en de andere knoppen krijgen dezelfde stijl */
+li a, .dropdownmenu
 {
-  display: inline-block;
+  display: inline-block; 
   color: white;
   text-align: center;
   padding: 20px 19px;
   text-decoration: none;
 }
 
-
-
 li.dropdown 
 {
-  display: inline-block;
+  display: inline-block; /*dit zet mij dropdown naast de andere menu items*/
 }
 
 .dropdown-content 
 {
-  display: none;
+  display: none; /* dit is zodat je het drop down menu niet ziet tot dat je er met je muis overheen gaat*/
   position: absolute;
   background-color: #f9f9f9;
   min-width: 112px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); /*zorgt voor kleine schaduw*/
+  z-index: 1; /* zorgt ervoor dat uiklap menu boven andere dingen komt*/
 }
-.menu ul { background-color: #414571; }
 
+/*hieronder is de opmaak van mij uitklap menu*/
 .dropdown-content a 
 {
   color: black;
@@ -92,12 +90,15 @@ li.dropdown
 
 
 
+/* Vanaf hier is de opmaak van mijn tekst kolommen*/
 
 /*container is de class die ik heb gemaakt voor de kolommen voor de tekst van mijn pagina */
 .container {
   display: flex; /* maakt van de container een horizontale rij  */
 }
 
+
+/*opmaak van linker kolom*/
 .sidebar {
   width: 400px; /* zorgt voor breedte van de linkerkolom */
   background-color: rgba(239, 164, 164, 0.5); /* beetje doorschijnende achtergronf */
@@ -105,8 +106,9 @@ li.dropdown
   box-shadow: 2px 0 5px rgba(0,0,0,0.1); /* zorgt voor schaduwtje */
 }
 
+/*opmaak rechter kolom*/
 .main-content {
-  flex: 1; 
+  flex: 1; /* neemt overgebleven ruimte in*/
   padding: 20px; /* zorgt voor lengte van kolom */
 }
 
@@ -118,6 +120,7 @@ li.dropdown
   padding: 20px;
 }
 
+/*zorgt voor styling in tekst vakken*/
 .text-section {
   flex: 1; /* Tekst neemt 1 deel van de ruimte */
   background-color: #f9f9f9;
@@ -125,6 +128,7 @@ li.dropdown
   border-radius: 10px;
 }
 
+/* dit is de layout voor mijn foto collage op pagina 1*/
 .image-gallery {
   flex: 1; 
   display: grid; 
@@ -133,8 +137,19 @@ li.dropdown
   
 }
 
+/*dit hier onder is voor de opmaak van mijn foto collage op pagina 1*/
+.main-content img {
+  width: 200px; /* zorgt voor de breedte van elke afbeelding. */
+  height: 150px; /* zorgt voor de hoogte van elke afbeelding. */
+  object-fit: cover; /* Zorgt voor dat de afbeelding het vak mooi vult zonder uitrekken */
+  border-radius: 8px; /* zorgt dat de hoekjes afgerond zijn */
+  margin: 10px; 
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2); /*zorgt voor schaduw bij de plaatjes*/
+}
 
 
+
+/* footer*/ 
 .site-footer {
   margin-top: auto;         /* zorgt dat footer onderaan de pagina staat. */
   background-color: #414571;
@@ -143,7 +158,7 @@ li.dropdown
   padding: 15px;          
 }
 
-/* dit is de opmaak voor de rechter kolom */
+/* dit is de opmaak voor een rechter kolom */
 .rechter-kolom {
   width: 800px;
   background-color: rgba(239, 164, 164, 0.5);
@@ -151,7 +166,7 @@ li.dropdown
   box-shadow: 2px 0 5px rgba(0,0,0,0.1);
 }
 
-/* dit is voor de opmaak van mijn lin*/
+/* dit is opmaak knop naar binary bonanza*/
 a.knop:link, a.knop:visited {
   background-color: #d654c7;
   color: white;
@@ -197,15 +212,8 @@ a.knop:hover, a.knop:active {
   text-align: center;
 }
 
-/*dit hier onder is voor de opmaak van mijn foto collage op pagina 1*/
-.main-content img {
-  width: 200px; /* zorgt voor de breedte van elke afbeelding. */
-  height: 150px; /* zorgt voor de hoogte van elke afbeelding. */
-  object-fit: cover; /* Zorgt voor dat de afbeelding het vak mooi vult zonder uitrekken */
-  border-radius: 8px; /* zorgt dat de hoekjes afgerond zijn */
-  margin: 10px; 
-  box-shadow: 0 2px 6px rgba(0,0,0,0.2); /*zorgt voor schaduw bij de plaatjes*/
-}
+
+/* vanafhier zijn allemaal apparten opmaak voor plaatjes op mijn pagina's
 
 /*dit is de opmaak van mijn plaatje op pagina over binair stelsel*/
 .plaatje_1 {
