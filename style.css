@@ -251,7 +251,7 @@ a.knop:hover, a.knop:active {
 
 /*dit is de opmaak van mijn plaatje op pagina over binair stelsel*/
 .plaatje_1 {
-  width: 400px;   /*  grootte */
+  width: 500px;   /*  grootte */
   height: auto;   /* verhoudingen  */
   display: block;
   margin: 20px auto; 
