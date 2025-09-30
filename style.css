@@ -1,11 +1,10 @@
 html,body {
-color: rgb(54, 42, 34);  
 margin: 0px;
 padding: 0;
 background-repeat: no-repeat;
 background-attachment: fixed;  
 background-size: cover;
-color: aliceblue;
+color: aliceblue; /* tekstkleur voor body en html*/
 height: 100%;             
 display: flex;         
 flex-direction: column;   
@@ -212,3 +211,36 @@ a.knop:hover, a.knop:active {
   margin: 10px; 
   box-shadow: 0 2px 6px rgba(0,0,0,0.2); /*zorgt voor schaduw bij de plaatjes*/
 }
+
+/*dit is de opmaak van mijn plaatje op pagina over binair stelsel*/
+.plaatje_1 {
+  width: 300px;   /*  grootte */
+  height: auto;   /* verhoudingen  */
+  display: block;
+  margin: 20px auto; 
+}
+
+
+/*dit is de opmaak van mijn plaatje op pagina bitmap en vector*/
+.afbeelding-2 {
+  width: 400px;  
+  height: auto;  
+  display: block;
+  margin: 20px auto; 
+}
+
+/*dit is de opmaak voor mijn afbeelding bij kleurmodellen*/
+.afbeelding-1 {
+  width: 325px;   /*  grootte */
+  height: auto;   /* verhoudingen  */
+  display: block;
+  margin: 20px auto; 
+ } 
+
+/*dit is mijn afbeelding voor pagina over opslag*/
+ .afbeelding-3 {
+  width: 350px;   /*  grootte */
+  height: auto;   /* verhoudingen  */
+  display: block;
+  margin: 20px auto; 
+ } 
