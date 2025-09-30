@@ -222,8 +222,12 @@ a.knop:hover, a.knop:active {
 /* vanafhier zijn allemaal apparten opmaak voor plaatjes op mijn pagina's
 
 /*dit is de opmaak van mijn plaatje op pagina over binair stelsel*/
-
-
+.plaatje_1 {
+  width: 300px;   /*  grootte */
+  height: auto;   /* verhoudingen  */
+  display: block;
+  margin: 20px auto; 
+}
 
 /*dit is de opmaak van mijn plaatje op pagina bitmap en vector*/
 .afbeelding-2 {
